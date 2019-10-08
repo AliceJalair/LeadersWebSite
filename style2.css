@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face{
+    font-family: 'yasasisa';
+    
+    src:local('yasasisa.ttf');
+}
+
+@font-face{
+    font-family: 'nishiki';
+   
+    src: local('nishiki-teki.ttf');
+}
+
+body {
+    width: 100%;
+    background-image: url("bgimgkatsudo.png");
+}
+
+.topbutton{
+    text-decoration: none;
+    color: #2e5077ff;
+    font-size: 26px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9d81dff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 39px;
+    left: 50px;
+    transition:0.5s;
+}
+
+.topbutton:hover{
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    background-color: #f9d81dff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+}
+
+.head h1 {
+    font-family: "nishiki";
+    font-size: 110px;
+    color: #2e5077ff;
+    position:absolute;
+    top:140px;
+    
+}
+
+.main {
+    width: 1240px;
+    margin:0 auto;
+    overflow:hidden;
+    
+}
+
+.top-title{
+    font-family: 'yasasisa';
+    color: #2e5077ff;
+    font-size: 38px;
+    border-left: 11px solid #f9d81dff;
+    margin-left: 10px;
+    margin-right: 0;
+    padding-left: 10px;
+}
+
+.right-box h2{
+    font-family:;
+    font-weight: 100;
+    color: #2e5077ff;
+    font-size: 22px;
+    padding-left: 115px;
+    margin-bottom: 43px;
+    text-align: left;
+}
+
+.left-box h2{
+    font-family:;
+    font-weight: 100;
+    color: #2e5077ff;
+    font-size: 22px;
+    text-align: left;
+    padding-right: 115px;
+    
+}
+
+
+
+
+.main img{
+    float: left;
+    position: relative;
+}
+
+.right-box{
+    float: left;
+    height: 582px;
+    text-align: center;
+    line-height:2.4;
+    
+}
+
+.left-box{
+    float: left;
+    width: 558px;
+    height: 582px;
+    line-height: 2.4;
+    text-align: center;
+    
+}
+
+.head{
+    height: 384px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section{
+    
+    height: 702px;
+    
+    margin-top: 72px;
+}
+
+#section2{
+    padding-bottom: 80px;
+    
+    
+}
+
+#detail1{
+    margin-top: 72px;
+    height: 507px;
+    padding: 0 8px;
+    
+}
+
+#detail2{
+    height: 670px;
+    margin-top: 72px;
+    padding: 0 8px;
+}
+
+#detail3{
+    height: 507px;
+    margin-top: 72px;
+    padding: 0 8px;
+}
+
+#section4{
+    
+    height: 559px;
+    margin-top:72px;
+   
+    
+    
+}
+
+#detail4{
+    margin-top: 72px;
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+}
+
+.link{
+    color: #2e5077ff;
+    font-size: 26px;
+    text-decoration: none;
+    transition:0.5s;
+    
+    
+    
+}
+
+.link:hover{
+    color: #fff;
+    border: 1px solid #2e5077ff;
+    border-radius:5px;
+    background: #2e5077ff;
+    text-decoration: none;
+    padding: 10px 44.5px;
+    
+}
+
+
