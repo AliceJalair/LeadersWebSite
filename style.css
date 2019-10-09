@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face{
+    font-family: 'yasasisa';
+    
+    src:url('yasasisa.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'nishiki';
+   
+    src: url('nishiki-teki.ttf') format('truetype');
+    
+}
+
+@font-face{
+    font-family: 'guzuri';
+    src: url('guzuri_1nensei.ttf') format('truetype');
+}
+
+body {
+    width: 100%;
+    background-image: url("bgimg.png");
+}
