@@ -3,9 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link href="slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="slick.min.js"></script>
     <title>図工アート隊｜ZAT</title>
 </head>
+
 <body>
-    
-</body>
-</html>
+    <div class="head">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">ZATとは</a>
+                    <a href="#activities">かつどう</a>
+                    <a href="#gallery">かつどうのようす</a>
+                    <a href="#members">メンバー</a>
+                    <a href="#contact">おといあわせ</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <a class="scroll" href="#about"><img src="pointing.png" alt=""></a>
+    </div>
+    <div class="main">
+        <div class="section" id="about">
+            <img class="title" src="titleabout.png" alt="">
+            <img src="zatmark.png" alt="">
+            <p>ZATは放課後図工室から生まれたグループ。<br>
+                モノづくりやわくわくすることが大好きな<br>
+                子どもたちのグループです。<br>
+                日々自分たちの学校や町を楽しくさせること<br>
+                を考えていて、創作活動を通して図工、<br>
+                アートの楽しさを伝えます。
+
+            </p>
+
+
+        </div>
+        <div class="section" id="activities">
+            <img class="title" src="titleactivity.png" alt="">
+            <div class="activitybox">
+                <div class="left-box"><img src="activitypetit2.png" alt=""></div>
+                <div class="right-box">
+                    <img src="activityzukkoro.png" alt="">
+                    <img src="activitypetit1.png" alt="">
+                    <img src="activitykyoudo.png" alt="">
+                    <img src="activityflat.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section" id="gallery">
+            <img class="title" src="titlegallery.png" alt="">
+            <ul class="thumb-item">
+                <li><a href="#"><img src="kanbang.JPG"></a></li>
+                <li><a href="#"><img src="kokubang.JPG"></a></li>
+                <li><a href="#"><img src="logog.JPG"></a></li>
+                <li><a href="#"><img src="nunog.JPG"></a></li>
+                <li><a href="#"><img src="paintingg.JPG"></a></li>
+            </ul>
+            <!-- ↓サムネイル -->
+            <ul class="thumb-item-nav">
+                <li><a href="#"><img src="kanbang.JPG"></a></li>
+                <li><a href="#"><img src="kokubang.JPG"></a></li>
+                <li><a href="#"><img src="logog.JPG"></a></li>
+                <li><a href="#"><img src="nunog.JPG"></a></li>
+                <li><a href="#"><img src="paintingg.JPG"></a></li>
+            </ul>
+
+
+
+
+        </div>
+
+        <script>
+            $(function() {
+                $('.thumb-item').slick({
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: '.thumb-item-nav' //サムネイルのクラス名
+                });
+                $('.thumb-item-nav').slick({
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    asNavFor: '.thumb-item', //スライダー本体のクラス名
+                    focusOnSelect: true,
+                    centerMode: true,
+                });
+            });
+        </script>
+
+        <div class="section" id="members">
+            <img class="title" src="titlemember.png" alt="">
+
+
+
+
+        </div>
+        <div class="section" id="contact">
+            <img class="title" src="titlecontact.png" alt="">
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>&copy;2019 ZukoArtTai</footer>
+
+</body></html>
