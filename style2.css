@@ -198,10 +198,15 @@ body {
 }
 
 .link{
+    border: 1px solid #2e5077ff;
+    border-radius:5px;
+    padding: 10px 30px;
     color: #2e5077ff;
     font-size: 26px;
     text-decoration: none;
-    transition:0.5s;
+    transition: all .8s ease-out;
+  -webkit-transition: all .8s ease-out;
+  box-shadow: inset 0px 0px #2e5077ff, inset 0px 0px #2e5077ff;
     
     
     
@@ -213,8 +218,8 @@ body {
     border-radius:5px;
     background: #2e5077ff;
     text-decoration: none;
-    padding: 10px 44.5px;
-    
+    padding: 10px 30px;
+    box-shadow: inset 150px 70px 0px 0px #2e5077ff, inset -150px -70px 0px 0px #2e5077ff;
 }
 
 
