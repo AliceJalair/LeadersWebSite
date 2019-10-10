@@ -26,6 +26,7 @@ body {
     width: 100%;
     background-image: url("bgimg.png");
     background-repeat: no-repeat;
+    
 }
 
 .head {
@@ -119,24 +120,31 @@ p {
 
 .left-box {
 
-    width: 400px;
+    width: 440px;
     text-align: left;
     float: left;
-    margin-right: 50px;
+    margin-right: 52px;
 }
 
 .right-box {
     
     float: left;
-   
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
+      
 
 }
 
-.each{
+.right-one{
+    float: left;
+    margin-left: 20px;
+}
 
+.right-two{
+    float: left;
+    
+}
+
+.each{
+margin-bottom: 20px;
     
 }
 .right-box img {
@@ -145,13 +153,17 @@ p {
 
 }
 
+.activitybox a:hover{
+   
+}
+
 #gallery {
     height: 1000px;
     text-align: center;
     padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 200px;
 }
 
 .thumb-item {
@@ -177,10 +189,10 @@ p {
 }
 
 #members {
-    height: 1370px;
+    height: 1250px;
     text-align: center;
-    padding-top: 25px;
-    margin-top: 60px;
+    padding-top: 100px;
+    
     
 }
 
@@ -195,9 +207,14 @@ p {
     
     flex-wrap: wrap;
     align-content: center;
-    margin:72px 45px 0 45px;
+    margin:72px 0 45px;
     
     
+}
+
+.person img{
+    width: 60%;
+    height: 70%;
 }
 
 .person{
@@ -206,11 +223,12 @@ p {
 }
 
 .face{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius:50%;
     background: #2e5077ff;
-    margin: 30px;
+    margin: 20px;
+    
     
 }
 
@@ -235,17 +253,31 @@ p {
 }
 
 .contact-form .item{
-    display: flex;
-    justify-content:flex-end;
     
-    overflow: hidden;
-    margin: 50px auto ;
+   
+    margin: 50px 0;
+    padding-left: 50px;
 }
 
 .contact-form .item .label {
-  float: left;
-  padding: 5px 10px;
-  margin:0; 
+    display:inline-block;
+ width: 170px;
+    float: left;
+ 
+  
+  
+    
+}
+
+#comment .label{
+    
+   
+}
+
+.name{
+}
+
+.mail {
     
 }
 
@@ -256,19 +288,21 @@ input{
     background-color: #e8dcd0ff;
     border-radius:10px;
     padding: 5px ;
+    font-size: 1em;
     
 }
 
 textarea{
     width: 50%;
-    height: 300px;
+    height:300px;
     border: 2px solid #2e5077ff;
     background-color: #e8dcd0ff;
      border-radius:10px;
     padding: 5px;
+    font-size: 1em;
 }
 
-input[type=submit] {
+button[type=submit] {
     
   border: none;
   outline: none;
@@ -279,11 +313,13 @@ input[type=submit] {
   font-size: 13px;
   color: #fff;
   background-color: #2e5077ff;
-  border-bottom: 4px solid #464;
   cursor:pointer;
   border-radius: 10px;
   box-sizing: content-box;
-  transition:0.1s ease all
+  transition:0.1s ease all;
+    font-family: 'guzuri';
+    font-size: 25px;
+    padding: 10px;
     
 }
 
