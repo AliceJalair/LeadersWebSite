@@ -28,7 +28,7 @@ body {
     background-repeat: no-repeat;
     animation: fadeIn 2s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;
-    
+   
 
     
 }
@@ -44,19 +44,16 @@ body {
 }
 
 
-@media screen and ( max-width:480px ){
-    
-    body{
-        background-image: url(1x/spbgimg.png);
-        
-        -webkit-background-size: cover;
-        background-size: cover;
-    }
-    
-}
+
 
 .head {
     height: 920px;
+}
+
+@media  screen and (max-width:480px){
+    .head{
+        height: 736px;
+    }
 }
 
 .logo-img{
@@ -83,8 +80,8 @@ body {
 
 @media screen and (max-width:480px ){
     .logo-img img{
-        text-align: center;
-        width: 50%;
+        margin:110px auto;
+        width: 80%;
 
     }
     
@@ -93,21 +90,14 @@ body {
 
 @media screen and (max-width:480px ){
     .logo-mini img{
-        width: 50%;
+        
+        margin:10px auto;
+        width: 30%;
+        position: absolute;
+        top: 130px;
+        left: 150px;
         
     }
-}
-
-
-
-
-
-
-.scroll {
-    position: absolute;
-    top: 760px;
-    left: 700px;
-
 }
 
 
@@ -178,7 +168,12 @@ nav a:hover {
 }
 
 
+.scroll {
+    position: absolute;
+    top: 760px;
+    left: 700px;
 
+}
 
 .scroll img{
     transition-duration:0.5s;
@@ -193,13 +188,27 @@ nav a:hover {
 
 }
 
+@media and screen(max-width:480px){
+    
+    .scroll{
+        width: 50%;
+        position:absolute;
+        top: 0;
+        left: 50px;
+        
+    }
+    
+}
+
 .main {
     width: 1015px;
     margin: 0 auto;
 }
 
+
+
 #about {
-    height: 870px;
+    height: 850px;
     padding-top: 80px;
 
 
@@ -351,22 +360,30 @@ margin-bottom: 20px;
 
 
 #gallery {
-    height: 1000px;
+    height: 900px;
     text-align: center;
     padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .thumb-item {
-    
+    width: 50%;
+    height: auto;
     padding-bottom: 10px;
+    margin:50px auto 0;
 }
 
 .thumb-item img {
     margin-top: 50px;
     width: 100%;
+    
+}
+
+.thumb-item-nav{
+    margin:50px auto 0;
+    width: 80%;
     
 }
 
@@ -382,7 +399,7 @@ margin-bottom: 20px;
 }
 
 #members {
-    height: 1250px;
+    height: 1270px;
     text-align: center;
     padding-top: 90px;
     
@@ -411,8 +428,9 @@ margin-bottom: 20px;
 }
 
 .person{
-    padding-bottom: 100px;
-    margin: 0px 30px;
+
+    margin: 4px 30px;
+    padding-bottom: 10px;
 }
 
 .face{
@@ -420,13 +438,20 @@ margin-bottom: 20px;
     height: 120px;
     border-radius:50%;
     background: #2e5077ff;
-    margin: 20px;
+    margin: 15px;
     
     
 }
 
 .face img{
     padding: 20px;
+}
+
+.script p{
+    font-size: 13px;
+    width: 120px;
+    height: 125px;
+    margin: 0 auto;
 }
 
 #contact {
@@ -549,6 +574,8 @@ width: 150px;
 
 
 footer {
+    font-family: 'yasasisa';
+    color: #2e5077ff;
     text-align: center;
     background-image: url(footer.png);
     -webkit-background-size: cover;
@@ -597,3 +624,231 @@ footer {
     }
 }
 
+@media screen and (max-width:480px ){
+    .main{
+        width: 414px;
+
+    }
+    
+    
+}
+
+@media screen and (max-width:480px ){
+    .title{
+      width: 60%;
+      text-align: center;
+        
+        
+
+    }
+    
+    
+    .scroll img{
+        width: 100px;
+        
+    }
+    
+    .scroll{
+        position: absolute;
+        top: 600px;
+        left: 150px;
+    }
+    
+    
+}
+
+@media screen and (max-width:480px ){
+    
+    body{
+        width: 100%;
+        background-image: url(1x/spbgimg-02.png);
+        
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+    
+    .mark{
+        
+        width:80px;
+        }
+    
+    #about p{
+        font-size: 12px;
+        
+    }
+    
+    #about{
+        height: 500px;
+    }
+    
+    #activities .title{
+        width: 200px;
+    }
+    
+    .activitybox{
+        width: 100%;
+    }
+    
+    .left-box {
+        float:none;
+        margin:0 auto;
+        margin-left: 0;
+        width: 400px;
+        
+    }
+    
+    .left-box img{
+        width: 320px;
+    }
+    
+    .left-box .learnmore{
+        width: 295px;
+        height: 310px;
+        margin: 0 50px 0 50px;
+    }
+    
+    .left-box .learnmore h2{
+        margin: 140px 0;
+    }
+    .right-box{
+        margin: 0 40px;
+        }
+    
+    
+    .right-one{
+        margin-right: 10px;
+    }
+    
+    .each{
+        width:150px;
+        margin-bottom:10px;
+    }
+    
+    .each .learnmore{
+        width: 140px;
+        height: 140px;
+    }
+    
+    .right-box .learnmore h2{
+        margin:60px 0;
+    }
+    
+    #gallery{
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    
+    .thumb-item{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .thumb-item img {
+        width: 100%;
+    }
+    
+    
+    #members{
+        height: 1100px;
+        
+    }
+    #members .title{
+        width: 55%;
+    }
+    
+    .introduce{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-around
+    }
+    
+    .person{
+        width: 100px;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .person .face{
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
+    
+    .face img{
+        width: 50px;
+        height: 60px;
+        padding: 10px;
+    }
+    
+    .person p{
+        font-size: 12px;
+    }
+    
+    .script p{
+        font-size: 10px;
+    }
+    .contact-form{
+        
+    }
+    
+    
+     .contact-form .item{
+        
+        padding-left: 0;
+    }
+    
+    .contact-form .item .label{
+        float: none;
+    }
+    
+    input{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+    }
+    
+    textarea{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+    }
+    
+    .topbutton{
+        width: 80px;
+        height: 80px;
+        font-size: 17px;
+        position:absolute;
+        bottom: 50px;
+        right: 20px;
+        position: fixed;
+    }
+    
+    footer{
+        font-size: 12px;
+        padding: 7px;
+    }
+    
+    .topbutton:hover{
+     width: 80px;
+    height: 80px;
+    font-size: 17px;
+        
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    
+    transform: translateY(-10px);
+
+}
+
+}
+
+
+@media screen and ( max-width:480px ){
+    
+    
+    
+}
