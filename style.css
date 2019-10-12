@@ -177,6 +177,7 @@ nav a:hover {
 
 .scroll img{
     transition-duration:0.5s;
+    
 }
 
 
@@ -377,7 +378,7 @@ margin-bottom: 20px;
 
 .thumb-item img {
     margin-top: 50px;
-    width: 100%;
+    width:80%;
     
 }
 
@@ -578,8 +579,8 @@ footer {
     color: #2e5077ff;
     text-align: center;
     background-image: url(footer.png);
-    -webkit-background-size: cover;
-    background-size:cover;
+    
+
 }
 
 
@@ -624,6 +625,7 @@ footer {
     }
 }
 
+
 @media screen and (max-width:480px ){
     .main{
         width: 414px;
@@ -645,8 +647,18 @@ footer {
     
     .scroll img{
         width: 100px;
+        animation: img_box_9955 3s linear infinite;
+  transform-origin: 50% 50%;
+  margin: 1rem 0 !important;
         
     }
+    
+    @keyframes img_box_9955 {
+  0% { transform: translateY(0) }
+  33.33333% { transform: translateY(-10px) }
+  66.66667% { transform: translateY(0) }
+  100% { transform: translateY(0) }
+}
     
     .scroll{
         position: absolute;
@@ -662,9 +674,11 @@ footer {
     body{
         width: 100%;
         background-image: url(1x/spbgimg-02.png);
-        
+        -webkit-background-size: contain;
+        background-size: contain;
         -webkit-background-size: cover;
         background-size:cover;
+        
     }
     
     .mark{
@@ -769,6 +783,7 @@ footer {
         width: 100px;
         text-align: center;
         margin: 10px;
+        height: 190px;
     }
     
     .person .face{
@@ -784,11 +799,21 @@ footer {
     }
     
     .person p{
+        
         font-size: 12px;
     }
     
+    .script{
+        width: 120px;
+        height: 120px;
+        
+    }
+    
     .script p{
-        font-size: 10px;
+        font-size:9px;
+        line-height: 2.5;
+    
+    
     }
     .contact-form{
         
@@ -829,6 +854,7 @@ footer {
     footer{
         font-size: 12px;
         padding: 7px;
+        
     }
     
     .topbutton:hover{
