@@ -684,13 +684,17 @@ footer {
     .scroll{
         position: absolute;
         top: 550px;
-        left: 150px;
+        left: 35%;
+      vertical-align: middle;
+        
     }
     
     
 }
 
 @media screen and (max-width:480px ){
+    
+   
     
     body{
         margin: 0;
@@ -756,7 +760,9 @@ footer {
     }
     .right-box{
         
-        width: 100%;
+        width: 90%;
+        position: absolute;
+        left: 8%;
         
     
     }
@@ -764,9 +770,15 @@ footer {
         
     }
     
-    .right-one{  margin-left: 45px;  }
+    .right-one{    }
     
     .each{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-around;
         width:150px;
         height: 150px;
         margin-bottom:20px;
@@ -784,12 +796,14 @@ footer {
     
     .lmbutton {
         display: contents;
+        margin:0 auto;
+        width: 80px;
+        height: 20px;
 
     }
     
     .lmbutton a{
-        width: 100px;
-        height: 20px;
+        text-align: center;
         text-decoration: none;
          color: #fff;
         border:3px;
@@ -909,7 +923,7 @@ footer {
     footer{
         font-size: 12px;
         padding: 7px;
-        
+        width: 100%;
     }
     
     .topbutton:hover{
