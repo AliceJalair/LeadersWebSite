@@ -366,19 +366,7 @@ text-align: center;
 
 .lmbutton{
     display: none;
-    position: absolute;
-    top: 1000px;
-    right: 0;
-    width: 80px;
-        height: 20px;
-        border: 1px solid #2e5077ff;
-    background-color: #2e5077ff;
-    border-radius:5px;
-    padding: 10px 30px;
-    color: #f9d81dff;
-    font-size: 18px;
-    text-decoration: none;
-        font-family: 'yasasisa';
+    
         
 }
 
@@ -756,7 +744,7 @@ footer {
     }
     
     #activities{
-        margin-bottom: 90px;
+        margin-bottom: 100px;
     }
     .activitybox{
         width:100%;
@@ -824,9 +812,20 @@ footer {
     
     .lmbutton {
         display: contents;
-        margin:0 auto;
+        
         width: 80px;
         height: 20px;
+      
+       margin: 0 auto;
+        
+        border: 1px solid #2e5077ff;
+    background-color: #2e5077ff;
+    border-radius:5px;
+   
+    
+    font-size: 18px;
+    
+        
 
     }
     
@@ -838,11 +837,12 @@ footer {
         background-color: #2e5077ff;
         border-radius:5px;
         padding: 10px 30px;
-        
+        font-family: 'yasasisa';
+
     }
     
     #gallery{
-        padding: 0;
+        padding: 40px 0 0;
         width: 80%;
         height: 500px;
         margin-bottom: 100px;
