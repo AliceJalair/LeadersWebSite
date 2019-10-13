@@ -24,7 +24,9 @@
 
 body {
     width: 100%;
-    background-image: url("bgimgkatsudo2.png");
+    background-image: url("bgimgkatsudo.png");
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .topbutton{
@@ -62,7 +64,7 @@ body {
     color: #2e5077ff;
     position:absolute;
     top:140px;
-    
+    margin:0 auto;
 }
 
 .main {
@@ -236,6 +238,8 @@ footer{
     font-family: ;
     background-image: url(footer.png);
     padding-top:6px;
+    -webkit-background-size: cover;
+    background-size:cover;
 }
 
 .fuwatAnime {
@@ -282,6 +286,7 @@ footer{
 @media screen and ( max-width:480px ){
     
     body{
+        width: 100%;
         background-image: url(spbgimgkatsu-03.png);
         
         
@@ -290,14 +295,18 @@ footer{
     }
     
     .main{
-        width: 414px;
+        width: 100%;
     }
     
+    
+    .head{
+        width: 100%;
+    }
     
     .topbutton{
         position: absolute;
         top: 30px;
-        left: 300px;
+        left: 280px;
         width: 80px;
         height: 80px;
         line-height: 80px;
@@ -308,31 +317,44 @@ footer{
     
     .head h1{
         width: 100%;
+        position: absolute;
+        top: 200px;
+        left:3%;
         font-size: 90px;
-        text-align: center;
-        margin-top: 70px;
-    }
-    
-    .top-title{
-        font-size: 25px;
-        border:none;
-        text-align: center;
-        padding: 0;
+       
         
     }
     
+    .top-title{
+        font-size: 20px;
+        font-weight: 600;
+        border:none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
     .line{
-        margin: 0 0 0 50px;
+        width: 80%;
+        margin: 0;
         opacity:1;
+        position: absolute;
+        left: 10%;
+        
+    }
+    
+    .section{
+        width: 100%;
     }
     
     .detail{
-        display: block;
+        
     }
     
     .detail .left-content{
         float: none;
         width: 100%;
+        height: 50%;
         
     }
     
@@ -344,6 +366,7 @@ footer{
     }
     
     .detail .right-content{
+        
         float: none;
         width: 100%;
     }
@@ -351,13 +374,14 @@ footer{
     .detail h2{
         font-size: 14px;
         width: 100%;
-        padding:10px;
+        padding:50px 0;
     }
     
     .detail .left-box{
         width: 100%;
         float: none;
         height: 300px;
+        
     }
     
     
@@ -372,15 +396,30 @@ footer{
         -ms-flex-wrap: wrap-reverse;
         -o-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
+        height: 500px;
+        padding-top: 40px;
+    }
+    
+    #section1 h2{
+        margin-bottom:0;
+        
     }
     
     #section2{
+        height: 700px;
         margin-bottom: 130px;
     }
     
+    #section2 h2{
+        margin: 0;
+    }
+    
     #section3{
+        
         margin-bottom: 80px;
     }
+    
+    
     
     #detail3{
         display: -webkit-flex;
@@ -393,7 +432,8 @@ footer{
         -ms-flex-wrap: wrap-reverse;
         -o-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
-        padding-top: 60px;
+        padding-top: 40px;
+        
     }
     
     #detail4{
@@ -411,5 +451,10 @@ footer{
     
     #section1{
         margin-bottom: 30px;
+    }
+    
+    footer{
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 }
