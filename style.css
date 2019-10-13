@@ -916,6 +916,7 @@ footer {
      .contact-form .item{
         
         padding-left: 0;
+         
     }
     
     .contact-form .item .label{
@@ -930,9 +931,12 @@ footer {
     
     textarea{
         display: block;
-        margin: 0 auto;
+        margin: 0 auto 50px;
         width: 300px;
+        
     }
+    
+
     
     .topbutton{
         width: 80px;
