@@ -81,6 +81,7 @@
                     </div>
                 </div>
             </div>
+            <div class="lmbutton"><a href="index2.html">もっとみる</a></div>
         </div>
         <div class="fuwat" id="gallery">
             <img class="title" src="titlegallery.png" alt="">
@@ -136,7 +137,7 @@
                 });
                 $('.thumb-item-nav').slick({
                     infinite: true,
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     asNavFor: '.thumb-item', //スライダー本体のクラス名
                     focusOnSelect: true,
@@ -144,8 +145,12 @@
                     responsive: [{
                 breakpoint: 480,
                   settings: {
+                      infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                      asNavFor: '.thumb-item', //スライダー本体のクラス名
+                    focusOnSelect: true,
+                    centerMode: true,
                 }
               }
               ]
